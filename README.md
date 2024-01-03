@@ -29,11 +29,6 @@ Filter commits based on a minimum similarity score (e.g., 0.6):
 git log --oneline -n 100 | semsim "refactor rest controllers" | awk '$1 >= 0.6'
 ```
 
-## Requirements
-<!-- todo -wwhich python?--> 
-* Python 3.6 or higher
-
-
 ## License
 
 MIT
