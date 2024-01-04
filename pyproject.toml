@@ -1,3 +1,26 @@
 [build-system]
-requires = ["setuptools>=40.6.0", "wheel"]
+requires = ["setuptools", "wheel"]
 build-backend = "setuptools.build_meta"
+
+[project]
+name = "semantic-similarity-cli"
+version = "1.0.0"
+description = "file: README.md"
+readme = "README.md"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+license = "MIT" 
+
+[project.dependencies]
+requires = [
+    "InstructorEmbedding==1.0.1",
+    "sentence_transformers>=2.2.0",
+    "numpy",
+    "tqdm",
+]
+
+[project.scripts]
+semsim = "cli:main"
