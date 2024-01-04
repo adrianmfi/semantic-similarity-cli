@@ -9,7 +9,7 @@ On first use, the tool automatically downloads and installs the Instructor embed
 ## Installation
 Install using pip:
 ```bash
-pip install semantic-similarity
+pip install semantic-similarity-cli
 ```
 
 ## Usage
