@@ -12,15 +12,14 @@ classifiers = [
     "License :: OSI Approved :: MIT License",
     "Operating System :: OS Independent",
 ]
-license = "MIT" 
-
-[project.dependencies]
-requires = [
+dependencies = [
     "InstructorEmbedding==1.0.1",
     "sentence_transformers>=2.2.0",
     "numpy",
     "tqdm",
 ]
+[project.license]
+file = "LICENSE"
 
 [project.scripts]
 semsim = "cli:main"
